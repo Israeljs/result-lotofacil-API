@@ -1,0 +1,24 @@
+{
+  "name": "result-lotofacil-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israeljs/result-lotofacil-API.git"
+  },
+  "keywords": [],
+  "author": "israel-jeronimo",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Israeljs/result-lotofacil-API/issues"
+  },
+  "homepage": "https://github.com/Israeljs/result-lotofacil-API#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
