@@ -1,6 +1,6 @@
 //const fetch = require('node-fetch')
 const fs = require('fs').promises
-const oldResults = require('../database/resultss')
+const oldResults = require('../database/results')
 
 // Retorna o último resultado da lotofácil
 const lastResultFetcher = async () => {
@@ -38,7 +38,7 @@ const lotofacilResults = async () => {
   try {
     const data = await lotofacilResults();
     fs.writeFile(
-      'src/resultss.js',
+      'src/database/results.js',
       `module.exports = ${JSON.stringify(data, null, 2)}`, 
       {
         encoding: 'utf-8',
