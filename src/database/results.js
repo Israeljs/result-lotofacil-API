@@ -1,4 +1,320 @@
-module.exports = [
+export default [
+  {
+    "acumulado": true,
+    "dataApuracao": "20/07/2026",
+    "dataProximoConcurso": "21/07/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "02",
+      "13",
+      "09",
+      "21",
+      "08",
+      "15",
+      "01",
+      "16",
+      "05",
+      "11",
+      "12",
+      "22",
+      "06",
+      "17",
+      "20"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "05",
+      "06",
+      "08",
+      "09",
+      "11",
+      "12",
+      "13",
+      "15",
+      "16",
+      "17",
+      "20",
+      "21",
+      "22"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 545,
+        "valorPremio": 2235.07
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 18217,
+        "valorPremio": 35
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 221019,
+        "valorPremio": 14
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1160543,
+        "valorPremio": 7
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPAÇO DA SORTE",
+    "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 3740,
+    "numeroConcursoAnterior": 3739,
+    "numeroConcursoFinal_0_5": 3750,
+    "numeroConcursoProximo": 3741,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 48471808,
+    "valorAcumuladoConcurso_0_5": 0,
+    "valorAcumuladoConcursoEspecial": 134401882.28,
+    "valorAcumuladoProximoConcurso": 9083589.25,
+    "valorEstimadoProximoConcurso": 15000000,
+    "valorSaldoReservaGarantidora": 0,
+    "valorTotalPremioFaixaUm": 0
+  },
+  {
+    "acumulado": true,
+    "dataApuracao": "19/07/2026",
+    "dataProximoConcurso": "20/07/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "25",
+      "16",
+      "06",
+      "24",
+      "09",
+      "15",
+      "11",
+      "18",
+      "19",
+      "20",
+      "04",
+      "05",
+      "01",
+      "13",
+      "23"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "04",
+      "05",
+      "06",
+      "09",
+      "11",
+      "13",
+      "15",
+      "16",
+      "18",
+      "19",
+      "20",
+      "23",
+      "24",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 280,
+        "valorPremio": 1702.57
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 9693,
+        "valorPremio": 35
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 112078,
+        "valorPremio": 14
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 566619,
+        "valorPremio": 7
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPAÇO DA SORTE",
+    "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 3739,
+    "numeroConcursoAnterior": 3738,
+    "numeroConcursoFinal_0_5": 3740,
+    "numeroConcursoProximo": 3740,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 21789803,
+    "valorAcumuladoConcurso_0_5": 4361037.32,
+    "valorAcumuladoConcursoEspecial": 133418017.28,
+    "valorAcumuladoProximoConcurso": 4361037.32,
+    "valorEstimadoProximoConcurso": 10000000,
+    "valorSaldoReservaGarantidora": 0,
+    "valorTotalPremioFaixaUm": 0
+  },
+  {
+    "acumulado": false,
+    "dataApuracao": "17/07/2026",
+    "dataProximoConcurso": "18/07/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "14",
+      "05",
+      "10",
+      "23",
+      "13",
+      "17",
+      "02",
+      "18",
+      "07",
+      "03",
+      "24",
+      "08",
+      "20",
+      "11",
+      "04"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "02",
+      "03",
+      "04",
+      "05",
+      "07",
+      "08",
+      "10",
+      "11",
+      "13",
+      "14",
+      "17",
+      "18",
+      "20",
+      "23",
+      "24"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "CANAL ELETRONICO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "--"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "SALVADOR",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "SANTO ANDRE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 407776.92
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 654,
+        "valorPremio": 560.29
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 13726,
+        "valorPremio": 35
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 129076,
+        "valorPremio": 14
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 608299,
+        "valorPremio": 7
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPAÇO DA SORTE",
+    "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 3738,
+    "numeroConcursoAnterior": 3737,
+    "numeroConcursoFinal_0_5": 3740,
+    "numeroConcursoProximo": 3739,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 21384566,
+    "valorAcumuladoConcurso_0_5": 2512831.66,
+    "valorAcumuladoConcursoEspecial": 133032974.43,
+    "valorAcumuladoProximoConcurso": 0,
+    "valorEstimadoProximoConcurso": 2000000,
+    "valorSaldoReservaGarantidora": 0,
+    "valorTotalPremioFaixaUm": 0
+  },
   {
     "acumulado": false,
     "dataApuracao": "16/07/2026",
@@ -567,4 +883,4 @@ module.exports = [
     "valorSaldoReservaGarantidora": 0,
     "valorTotalPremioFaixaUm": 0
   }
-]
+];
